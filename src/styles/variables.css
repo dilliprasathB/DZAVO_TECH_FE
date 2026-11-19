@@ -1,0 +1,95 @@
+/* ==========================================================================
+   DZAVO TECHNOLOGY — DESIGN SYSTEM TOKENS & VARIABLES
+   ========================================================================== */
+
+:root {
+  /* Brand Color Palette */
+  --color-primary-navy: #101B35;
+  --color-royal-blue: #315BE8;
+  --color-royal-blue-hover: #2548bd;
+  --color-royal-blue-subtle: rgba(49, 91, 232, 0.08);
+  --color-royal-blue-glow: rgba(49, 91, 232, 0.25);
+  
+  --color-white: #FFFFFF;
+  --color-light-bg: #F5F7FA;
+  --color-surface-card: #FFFFFF;
+  --color-surface-elevated: #FFFFFF;
+  --color-surface-subtle: #EDF2F7;
+  
+  /* Text Colors */
+  --color-main-text: #202633;
+  --color-secondary-text: #737D90;
+  --color-muted-text: #9AA4B6;
+  --color-light-text: #F5F7FA;
+  --color-light-muted: #A3ADC2;
+
+  /* Borders & Dividers */
+  --color-border-subtle: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+  --color-border-dark: #1E2E52;
+
+  /* Dark Canvas Accents (Used for Header, Hero Dark accents, Footers, and Tech Panels) */
+  --color-navy-deep: #0B1326;
+  --color-navy-surface: #142244;
+  --color-navy-card: #182850;
+  --color-navy-border: #22376A;
+
+  /* Status Colors */
+  --color-success: #10B981;
+  --color-success-bg: #ECFDF5;
+  --color-error: #EF4444;
+  --color-error-bg: #FEF2F2;
+  --color-warning: #F59E0B;
+  --color-warning-bg: #FFFBEB;
+
+  /* Typography */
+  --font-heading: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+
+  /* Border Radii (Intentional, subtle, non-excessive human craft) */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Elevation Shadows (Restrained, architectural, crisp) */
+  --shadow-subtle: 0 1px 2px 0 rgba(16, 27, 53, 0.05);
+  --shadow-card: 0 4px 16px -2px rgba(16, 27, 53, 0.06), 0 2px 6px -1px rgba(16, 27, 53, 0.04);
+  --shadow-hover: 0 12px 28px -4px rgba(16, 27, 53, 0.1), 0 4px 12px -2px rgba(16, 27, 53, 0.06);
+  --shadow-elevated: 0 20px 40px -8px rgba(16, 27, 53, 0.14);
+  --shadow-navy-glow: 0 8px 30px rgba(49, 91, 232, 0.2);
+
+  /* Layout Containers */
+  --container-max: 1240px;
+  --container-narrow: 980px;
+  --container-wide: 1380px;
+  --container-padding: 1.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Header Height */
+  --header-height: 80px;
+  --header-height-scrolled: 70px;
+}
+

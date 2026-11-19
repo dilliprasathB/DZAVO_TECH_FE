@@ -1,0 +1,135 @@
+/* ==========================================================================
+   DZAVO TECHNOLOGY — RESPONSIVE ADAPTATIONS
+   ========================================================================== */
+
+/* Laptops & Tablets Landscape (<= 1100px) */
+@media (max-width: 1100px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+}
+
+/* Tablets (<= 900px) */
+@media (max-width: 900px) {
+  :root {
+    --container-padding: 1.25rem;
+    --header-height: 72px;
+  }
+
+  .grid-2,
+  .grid-1-2,
+  .grid-2-1 {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .section-header {
+    margin-bottom: var(--space-8);
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-8) !important;
+  }
+
+  .hero-stats-row {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-5) !important;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: var(--space-8) !important;
+  }
+}
+
+/* Mobile Devices (<= 640px) */
+@media (max-width: 640px) {
+  :root {
+    --container-padding: 1rem;
+    --header-height: 66px;
+  }
+
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-group-responsive {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--space-3);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-8) !important;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: var(--space-4);
+  }
+
+  .card {
+    padding: var(--space-5);
+  }
+
+  .section {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .section-hero {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-stats-row {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-4) !important;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .comparison-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-4) !important;
+  }
+
+  .filter-pills-container {
+    justify-content: flex-start !important;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Ultra Small Screens (<= 380px) */
+@media (max-width: 380px) {
+  .hero-stats-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.25rem;
+  }
+}
+
